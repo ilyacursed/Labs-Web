@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы</title>
+    <link rel="stylesheet" href="style_tables.css">
+</head>
+
+<body>
+    <h1 class="title">Таблицы</h1>
+
+    <table>
+
+       <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Имя</th>
+            <th scope="col">E-mail</th>
+            <th scope="col">Дата регистрации</th>
+        </tr>
+       </thead>
+
+       <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Дмитрий</td>
+            <td>dima@mail.com</td>
+            <td>21.01.2020</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Александр</td>
+            <td>alex@mail.com</td>
+            <td>22.01.2020</td>
+        </tr>
+       </tbody>
+
+       <tfoot>
+        <tr>
+            <th scope="row" colspan="4"> Всего: 2</th>
+        </tr>
+       </tfoot>
+    </table>
+
+    <h2 class="title">Номер в списке - 14</h2>
+
+    <p>Вариант 4</p>
+
+    <table class="other">
+        <tr>
+            <td class="other" rowspan="3">Cell 1</td>
+            <td class="other" rowspan="2" colspan="2">Cell 2</td>
+            <td class="other">Cell 3</td>
+            <td class="other" rowspan="2">Cell 4</td>
+            <td class="other">Cell 5</td>
+        </tr>
+        <tr>
+            <td class="other" rowspan="2" >Cell 6</td>
+            <td class="other" id="foo">Cell 7</td>
+        </tr>
+        <tr>
+            <td class="other">Cell 8</td>
+            <td class="other">Cell 9</td>
+            <td class="other">Cell 10</td>
+        </tr>
+
+    </table>
+
+    <p>Вариант 9</p>
+
+    <table class="other">
+        <tr>
+             <td class="other" colspan="2" rowspan="2">Cell 1</td>
+             <td class="other"colspan="3">Cell 2</td>
+        </tr>
+        <tr>
+             <td class="other" id="foo">Cell 3</td>
+             <td class="other" rowspan="3">Cell 4</td>
+             <td class="other" rowspan="3">Cell 5</td>
+        </tr>
+        <tr>
+             <td class="other">Cell 6</td>
+             <td class="other">Cell 7</td>
+             <td class="other">Cell 8</td>
+        </tr>
+        <tr>
+             <td class="other">Cell 9</td>
+             <td class="other">Cell 10</td>
+             <td class="other">Cell 11</td>
+         </tr>
+    </table>
+
+    <p>Вариант 14</p>
+
+    <table class="other">
+        <tr>
+            <td class="other"> Cell 1</td>
+            <td class="other" colspan="2" rowspan="2">Cell 2</td>
+            <td class="other" rowspan="2">Cell 3</td>
+            <td class="other" rowspan="2">Cell 4</td>
+            <td class="other" rowspan="2">Cell 5</td>
+        </tr>
+        <tr>
+            <td class="other">Cell 6</td>
+        </tr>
+        <tr>
+            <td class="other" colspan="2">Cell 7</td>
+            <td class="other">Cell 8</td>
+            <td class="other" colspan="3" rowspan="2">Cell 9</td>
+        </tr>
+        <tr>
+            <td class="other" colspan="3">Cell 10</td>
+        </tr>
+    </table>
+
+    <p><a href="index.html">Ссылка на 1-ю страницу</a></p>
+    <p><a href="second.html">Ссылка на 2-ю страницу</a></p>
+    <p><a href="index2.html">Ссылка на 3-ю страницу</a></p>
+</body>
+</html>
